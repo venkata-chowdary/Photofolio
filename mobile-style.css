@@ -1,0 +1,113 @@
+/*Mobile Responsive*/
+@media (max-width:1028px) {
+    #click{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        letter-spacing: 2px;
+        
+    }
+
+    header{
+        margin-top: 30px;
+        padding: 0;
+    }
+    nav .menu-btn i{
+        display: block;
+        padding: 20px;
+        color: white;
+        font-size: 25px;
+    }
+    nav .social-media{
+        display: none;
+    }
+    nav .menu{
+        margin: 0;
+        position: fixed;
+        top:80px;
+        right: -100%;
+        background: black;
+        height: 60vh;
+        width: 400px;
+        display: block;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    #click:checked ~ .menu{
+        right: 0%;
+    }
+    nav .menu li{
+        margin: 40px 0;
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    nav .menu li a{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    /*main info*/
+    .main-info{
+        text-align: center;
+    }
+
+    .info h1{
+        font-size: 40px;
+    
+    }
+    .info{
+        width: 70%;
+    }
+    .info .profile{
+        text-decoration: underline #27a776;
+    }
+    .info button{
+    padding: 15px 40px;
+    margin: 25px auto;
+    font-size: 14px;
+    font-weight: 300;
+    }
+
+    /*gallery*/
+    .image img{
+        width: 340px;
+    }
+
+
+    /*footer*/
+
+    footer h3{
+        font-size: 14px;
+    }
+
+    footer h4{
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
